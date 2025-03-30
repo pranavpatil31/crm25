@@ -19,6 +19,8 @@ public class PostController {
     public String createPost(
             @RequestBody Post post
             ){
+        System.out.println("save");
+
         postRepository.save(post);
         return  null;
     }
