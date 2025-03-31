@@ -20,6 +20,7 @@ public class PostController {
             @RequestBody Post post
             ){
         System.out.println("save");
+        System.out.println("save");
 
         postRepository.save(post);
         return  null;
